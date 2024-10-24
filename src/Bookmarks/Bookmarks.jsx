@@ -14,7 +14,8 @@ const Bookmarks = ({bookmark, redingTime}) => {
 };
 
 Bookmarks.propTypes = {
-    bookmark: PropTypes.array
+    bookmark: PropTypes.array,
+    redingTime: PropTypes.func
 }
 
 export default Bookmarks;
